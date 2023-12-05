@@ -1,0 +1,20 @@
+/* Desktop */
+
+@media (width >= 1230px){
+
+    .new-post {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 16px;
+        margin: 0;
+        font-weight: bold;
+        border-radius: 24px;
+    }
+   
+    /* Icon */
+    .new-post__icon{
+        width: 19px;
+        height: 19px;
+    }
+}

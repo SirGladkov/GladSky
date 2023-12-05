@@ -1,0 +1,20 @@
+/* Navigathion */
+
+.navigathion {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Link */
+
+.navigathion__link {
+    color: rgb(var(--color-text-primary));
+    text-decoration: none;
+}
+
+/* Icon */
+
+.navigathion__icon{
+    display: block;
+}

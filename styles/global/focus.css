@@ -1,0 +1,5 @@
+/* Focus */
+
+:focus-visible{
+	outline-color: rgb(var(--color-blue));
+}

@@ -1,0 +1,44 @@
+/* Mobile */
+
+@media (width < 1230px){
+
+.navigathion {
+    position: fixed;
+    right:0;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid rgb(var(--color-border));
+    background-color: rgb(var(--color-back-primary));
+    display: flex;
+    padding-bottom: 6px;
+
+}
+
+/* Link */
+
+.navigathion__link{
+    display: block;
+    padding: 13px 0;
+}
+
+/* Icon */
+.navigathion__item {
+    /* flex-grow: 1; */
+    margin: auto;
+}
+
+.navigathion__item--hidden{
+    display: none;
+}
+
+
+/* Text */
+
+.navigathion__text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+}

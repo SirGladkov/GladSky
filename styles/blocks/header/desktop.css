@@ -1,0 +1,25 @@
+/* Desktop */
+
+@media (width >= 1230px){
+
+    .header{
+        padding: 24px 12px 0 0;
+    }
+
+    /* New Post */
+    .header__new-post{
+        margin: 20px 0 0 12px;
+    }
+
+    /* Avatar */
+
+    .header__avatar{
+        display: block;
+        margin: 0 0 16px 12px;
+    }
+
+    .header__avatar--image{
+        display: block;
+        border-radius: 50%;
+    }
+}
